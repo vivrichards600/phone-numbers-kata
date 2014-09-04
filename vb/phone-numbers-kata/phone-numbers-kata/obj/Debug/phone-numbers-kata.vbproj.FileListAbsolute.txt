@@ -5,3 +5,10 @@ C:\Users\richarv\Documents\Visual Studio 2010\Projects\phone-numbers-kata\vb\pho
 C:\Users\richarv\Documents\Visual Studio 2010\Projects\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.dll
 C:\Users\richarv\Documents\Visual Studio 2010\Projects\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.xml
 C:\Users\richarv\Documents\Visual Studio 2010\Projects\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.pdb
+C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll
+C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.pdb
+C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.xml
+C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.vbprojResolveAssemblyReference.cache
+C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.dll
+C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.xml
+C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.pdb
