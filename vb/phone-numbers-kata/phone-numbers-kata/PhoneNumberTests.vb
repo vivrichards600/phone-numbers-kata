@@ -28,7 +28,7 @@ Public Class PhoneNumberTests
 
     <TestMethod()>
     Public Sub Phone_Number_Must_Begin_With_9()
-        Assert.IsTrue(Validate.PhoneNumber("92345567871") = VALID_TELEPHONE_NUMBER)
+        Assert.IsTrue(Validate.PhoneNumber("92345567872") = VALID_TELEPHONE_NUMBER)
     End Sub
 
     <TestMethod()>
