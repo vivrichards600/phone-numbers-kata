@@ -1,0 +1,4 @@
+C:\Users\richarv\Documents\Visual Studio 2010\Projects\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll
+C:\Users\richarv\Documents\Visual Studio 2010\Projects\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.pdb
+C:\Users\richarv\Documents\Visual Studio 2010\Projects\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.dll
+C:\Users\richarv\Documents\Visual Studio 2010\Projects\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\obj\Debug\phone-numbers-kata.pdb
