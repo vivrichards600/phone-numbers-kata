@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.VisualBasic;
 
 class Validate
 {
@@ -10,7 +11,8 @@ class Validate
         if (!(numberToCheck.StartsWith("9"))) return "invalid";
         if (!(numberToCheck.Length > 10)) return "invalid";
         if (!(numberToCheck.Length < 12)) return "invalid";
-       // if (!Information.IsNumeric(numberToCheck)) return "invalid";
+        
+        if (!Information.IsNumeric(numberToCheck)) return "invalid";
 
         return numberToCheck;
 

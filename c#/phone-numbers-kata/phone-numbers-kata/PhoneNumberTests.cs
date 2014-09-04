@@ -68,11 +68,11 @@ public class PhoneNumberTests
         Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") == VALID_TELEPHONE_NUMBER);
     }
 
-    //[TestMethod]
-    //public void Invalid_Error_When_Phone_Number_Contains_Alpha_Characters()
-    //{
-    //    Assert.IsTrue(Validate.PhoneNumber("9123456789A") == INVALID_ERROR);
-    //}
+    [TestMethod]
+    public void Invalid_Error_When_Phone_Number_Contains_Alpha_Characters()
+    {
+        Assert.IsTrue(Validate.PhoneNumber("9123456789A") == INVALID_ERROR);
+    }
 
     String VALID_TELEPHONE_NUMBER = "92345567871";
     String INVALID_TELEPHONE_NUMBER = "82345567871";
