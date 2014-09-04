@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Phone_Number_Ignores_Spaces" IsTestCase="false" TestCaseId="0" AutomatedTestId="2e61830a-b103-12d4-dc52-ee3298f2c86d">
+  <Signatures>
+    <Signature>5CA0D222A95A65CDE20EE35426DC910CC4C4DF93</Signature>
+    <Signature>9E7C8D4045ACDFCEA465D462062C866880B3656B</Signature>
+    <Signature>C35CA42359DA694D29C9DFBF3808F209C5D4BF77</Signature>
+  </Signatures>
+</Test>

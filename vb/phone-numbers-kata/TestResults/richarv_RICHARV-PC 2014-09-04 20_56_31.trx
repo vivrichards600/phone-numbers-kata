@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bb00716d-7781-494c-8dfc-86ca4b326ffe" name="richarv@RICHARV-PC 2014-09-04 20:56:31" runUser="richarv-PC\richarv" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="6c87e0ba-18fb-4803-9aad-436c0d7833bd">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="richarv_RICHARV-PC 2014-09-04 20_56_31" />
+  </TestSettings>
+  <Times creation="2014-09-04T20:56:31.3903166+01:00" queuing="2014-09-04T20:56:31.9840666+01:00" start="2014-09-04T20:56:35.3903166+01:00" finish="2014-09-04T20:56:37.6715666+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Phone_Number_Ignores_Hyphens" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="969f2144-f93d-836a-c37b-0e4497024984">
+      <Execution id="31aea988-bad3-4f84-8dba-0804f80a8e85" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Hyphens" />
+    </UnitTest>
+    <UnitTest name="Invalid_Error_When_Phone_Number_Does_Not_Begin_With_9" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="9536222c-5427-7422-8487-e16e08832b92">
+      <Execution id="d7640c30-0f8d-4fa4-91b4-1b2a193b8dea" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Invalid_Error_When_Phone_Number_Does_Not_Begin_With_9" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Must_Be_Less_Than_12_Digits_In_Length" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="7d55c0ea-9ceb-fcaf-c59e-821da1a9f6b7">
+      <Execution id="09ed35c9-e9b1-4448-a0b9-1b06e950555f" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Must_Be_Less_Than_12_Digits_In_Length" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Must_Begin_With_9" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="155291f4-845e-f3ef-1a25-4122a5fc6c8b">
+      <Execution id="767618db-edcc-459b-8500-c50678871aaa" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Must_Begin_With_9" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Must_Be_11_Digits_In_Length" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="e257e5ee-bd61-8ed0-6f4a-49cb3dcc7d40">
+      <Execution id="76e739d1-5fec-448a-abc8-f64f7c7cbba9" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Must_Be_11_Digits_In_Length" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Ignores_Open_Brackets" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="15baa573-1b03-b021-d1c6-e9dec615bbdc">
+      <Execution id="395c89a8-a198-4bef-a5e0-2e2f5b6a8129" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Open_Brackets" />
+    </UnitTest>
+    <UnitTest name="Invalid_Error_When_Phone_Number_Contains_Alpha_Characters" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="0d65aa09-8982-1fbc-de59-884be95d36bc">
+      <Execution id="355b8647-4d1f-49bc-ab86-6be12ad1d479" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Invalid_Error_When_Phone_Number_Contains_Alpha_Characters" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Ignores_Spaces" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="2e61830a-b103-12d4-dc52-ee3298f2c86d">
+      <Execution id="96a200fe-8579-48c2-8568-b0557f1d086e" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Spaces" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Must_Be_More_Than_10_Digits_In_Length" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="cc027ae9-0ff5-aa46-04f8-52e8cea89c1c">
+      <Execution id="e2c5bcae-afa0-470b-b19b-3086ee59d96e" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Must_Be_More_Than_10_Digits_In_Length" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Ignores_Commas" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="9f4b40cd-b283-5d60-88d3-9ba288a7755a">
+      <Execution id="38aac40b-0c60-4e51-910f-86a08723b2f0" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Commas" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Ignores_Closing_Brackets" storage="c:\users\richarv\documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="23482a1b-eaa8-8c0a-bf8e-c18b1e4f58ee">
+      <Execution id="9227243e-6b5b-4d29-8c99-2a812e3f9acc" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\vb\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="phone_numbers_kata.PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Closing_Brackets" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0d65aa09-8982-1fbc-de59-884be95d36bc" executionId="355b8647-4d1f-49bc-ab86-6be12ad1d479" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="155291f4-845e-f3ef-1a25-4122a5fc6c8b" executionId="767618db-edcc-459b-8500-c50678871aaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15baa573-1b03-b021-d1c6-e9dec615bbdc" executionId="395c89a8-a198-4bef-a5e0-2e2f5b6a8129" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23482a1b-eaa8-8c0a-bf8e-c18b1e4f58ee" executionId="9227243e-6b5b-4d29-8c99-2a812e3f9acc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e61830a-b103-12d4-dc52-ee3298f2c86d" executionId="96a200fe-8579-48c2-8568-b0557f1d086e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d55c0ea-9ceb-fcaf-c59e-821da1a9f6b7" executionId="09ed35c9-e9b1-4448-a0b9-1b06e950555f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9536222c-5427-7422-8487-e16e08832b92" executionId="d7640c30-0f8d-4fa4-91b4-1b2a193b8dea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="969f2144-f93d-836a-c37b-0e4497024984" executionId="31aea988-bad3-4f84-8dba-0804f80a8e85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f4b40cd-b283-5d60-88d3-9ba288a7755a" executionId="38aac40b-0c60-4e51-910f-86a08723b2f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc027ae9-0ff5-aa46-04f8-52e8cea89c1c" executionId="e2c5bcae-afa0-470b-b19b-3086ee59d96e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e257e5ee-bd61-8ed0-6f4a-49cb3dcc7d40" executionId="76e739d1-5fec-448a-abc8-f64f7c7cbba9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="355b8647-4d1f-49bc-ab86-6be12ad1d479" testId="0d65aa09-8982-1fbc-de59-884be95d36bc" testName="Invalid_Error_When_Phone_Number_Contains_Alpha_Characters" computerName="RICHARV-PC" duration="00:00:00.0259239" startTime="2014-09-04T20:56:35.6403166+01:00" endTime="2014-09-04T20:56:36.0309416+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="355b8647-4d1f-49bc-ab86-6be12ad1d479">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="767618db-edcc-459b-8500-c50678871aaa" testId="155291f4-845e-f3ef-1a25-4122a5fc6c8b" testName="Phone_Number_Must_Begin_With_9" computerName="RICHARV-PC" duration="00:00:00.0007729" startTime="2014-09-04T20:56:36.0309416+01:00" endTime="2014-09-04T20:56:36.0621916+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="767618db-edcc-459b-8500-c50678871aaa">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="395c89a8-a198-4bef-a5e0-2e2f5b6a8129" testId="15baa573-1b03-b021-d1c6-e9dec615bbdc" testName="Phone_Number_Ignores_Open_Brackets" computerName="RICHARV-PC" duration="00:00:00.0002824" startTime="2014-09-04T20:56:36.0621916+01:00" endTime="2014-09-04T20:56:36.0778166+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="395c89a8-a198-4bef-a5e0-2e2f5b6a8129">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9227243e-6b5b-4d29-8c99-2a812e3f9acc" testId="23482a1b-eaa8-8c0a-bf8e-c18b1e4f58ee" testName="Phone_Number_Ignores_Closing_Brackets" computerName="RICHARV-PC" duration="00:00:00.0002786" startTime="2014-09-04T20:56:36.0778166+01:00" endTime="2014-09-04T20:56:36.1090666+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9227243e-6b5b-4d29-8c99-2a812e3f9acc">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="96a200fe-8579-48c2-8568-b0557f1d086e" testId="2e61830a-b103-12d4-dc52-ee3298f2c86d" testName="Phone_Number_Ignores_Spaces" computerName="RICHARV-PC" duration="00:00:00.0002579" startTime="2014-09-04T20:56:36.1090666+01:00" endTime="2014-09-04T20:56:36.1246916+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96a200fe-8579-48c2-8568-b0557f1d086e">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="09ed35c9-e9b1-4448-a0b9-1b06e950555f" testId="7d55c0ea-9ceb-fcaf-c59e-821da1a9f6b7" testName="Phone_Number_Must_Be_Less_Than_12_Digits_In_Length" computerName="RICHARV-PC" duration="00:00:00.0002506" startTime="2014-09-04T20:56:36.1246916+01:00" endTime="2014-09-04T20:56:36.1403166+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09ed35c9-e9b1-4448-a0b9-1b06e950555f">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7640c30-0f8d-4fa4-91b4-1b2a193b8dea" testId="9536222c-5427-7422-8487-e16e08832b92" testName="Invalid_Error_When_Phone_Number_Does_Not_Begin_With_9" computerName="RICHARV-PC" duration="00:00:00.0009276" startTime="2014-09-04T20:56:36.1403166+01:00" endTime="2014-09-04T20:56:36.1715666+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7640c30-0f8d-4fa4-91b4-1b2a193b8dea">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="31aea988-bad3-4f84-8dba-0804f80a8e85" testId="969f2144-f93d-836a-c37b-0e4497024984" testName="Phone_Number_Ignores_Hyphens" computerName="RICHARV-PC" duration="00:00:00.0002602" startTime="2014-09-04T20:56:36.1715666+01:00" endTime="2014-09-04T20:56:36.1871916+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31aea988-bad3-4f84-8dba-0804f80a8e85">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="38aac40b-0c60-4e51-910f-86a08723b2f0" testId="9f4b40cd-b283-5d60-88d3-9ba288a7755a" testName="Phone_Number_Ignores_Commas" computerName="RICHARV-PC" duration="00:00:00.0002751" startTime="2014-09-04T20:56:36.1871916+01:00" endTime="2014-09-04T20:56:36.2028166+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38aac40b-0c60-4e51-910f-86a08723b2f0">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2c5bcae-afa0-470b-b19b-3086ee59d96e" testId="cc027ae9-0ff5-aa46-04f8-52e8cea89c1c" testName="Phone_Number_Must_Be_More_Than_10_Digits_In_Length" computerName="RICHARV-PC" duration="00:00:00.0002452" startTime="2014-09-04T20:56:36.2028166+01:00" endTime="2014-09-04T20:56:36.2340666+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2c5bcae-afa0-470b-b19b-3086ee59d96e">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="76e739d1-5fec-448a-abc8-f64f7c7cbba9" testId="e257e5ee-bd61-8ed0-6f4a-49cb3dcc7d40" testName="Phone_Number_Must_Be_11_Digits_In_Length" computerName="RICHARV-PC" duration="00:00:00.0002724" startTime="2014-09-04T20:56:36.2340666+01:00" endTime="2014-09-04T20:56:36.2496916+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76e739d1-5fec-448a-abc8-f64f7c7cbba9">
+      <CollectorDataEntries>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\SystemInformation.xml">System Information from RICHARV-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="RICHARV-PC" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="RICHARV-PC\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+</TestRun>

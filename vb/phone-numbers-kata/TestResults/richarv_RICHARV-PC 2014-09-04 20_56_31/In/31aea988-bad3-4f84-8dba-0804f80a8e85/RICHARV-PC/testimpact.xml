@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Phone_Number_Ignores_Hyphens" IsTestCase="false" TestCaseId="0" AutomatedTestId="969f2144-f93d-836a-c37b-0e4497024984">
+  <Signatures>
+    <Signature>5CA0D222A95A65CDE20EE35426DC910CC4C4DF93</Signature>
+    <Signature>5AAEE3470C365B4E511335D6A4CA5504D9C9270F</Signature>
+    <Signature>C35CA42359DA694D29C9DFBF3808F209C5D4BF77</Signature>
+  </Signatures>
+</Test>

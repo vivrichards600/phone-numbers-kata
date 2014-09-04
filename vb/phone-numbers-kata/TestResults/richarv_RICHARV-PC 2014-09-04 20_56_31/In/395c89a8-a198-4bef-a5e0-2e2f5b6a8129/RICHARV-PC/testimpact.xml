@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Phone_Number_Ignores_Open_Brackets" IsTestCase="false" TestCaseId="0" AutomatedTestId="15baa573-1b03-b021-d1c6-e9dec615bbdc">
+  <Signatures>
+    <Signature>5CA0D222A95A65CDE20EE35426DC910CC4C4DF93</Signature>
+    <Signature>922A6DD91A65097E6F7F5AB789A460EC7301D25D</Signature>
+    <Signature>C35CA42359DA694D29C9DFBF3808F209C5D4BF77</Signature>
+  </Signatures>
+</Test>

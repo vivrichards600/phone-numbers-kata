@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Phone_Number_Must_Be_More_Than_10_Digits_In_Length" IsTestCase="false" TestCaseId="0" AutomatedTestId="cc027ae9-0ff5-aa46-04f8-52e8cea89c1c">
+  <Signatures>
+    <Signature>5CA0D222A95A65CDE20EE35426DC910CC4C4DF93</Signature>
+    <Signature>AE77343F5267EBCC7AD41DC6F67884048B271C68</Signature>
+    <Signature>C35CA42359DA694D29C9DFBF3808F209C5D4BF77</Signature>
+  </Signatures>
+</Test>

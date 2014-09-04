@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="42e5d1b7-2fbf-4384-86d5-f9f24d8f5681" name="richarv@RICHARV-PC 2014-09-04 20:57:19" runUser="richarv-PC\richarv" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="763b01d7-f641-401a-bbb3-111f62f6ed12">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="richarv_RICHARV-PC 2014-09-04 20_57_19" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-04T20:57:19.8737150+01:00" queuing="2014-09-04T20:57:19.9352385+01:00" start="2014-09-04T20:57:19.9440275+01:00" finish="2014-09-04T20:57:20.2145353+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Phone_Number_Ignores_Commas" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="d6f57ffc-832f-8142-cf01-b7366890f181">
+      <Execution id="7865a111-6690-4f7b-837a-1a9b251c6af0" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Commas" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Must_Be_11_Digits_In_Length" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="a85d265d-3293-80b9-5f63-8c197687a090">
+      <Execution id="fdeb618b-28e3-4b5a-a312-db47358283fb" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Must_Be_11_Digits_In_Length" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Ignores_Closing_Brackets" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="68891330-e1c1-22fe-8fe3-7fe47b146b27">
+      <Execution id="6bc2dec3-3800-4600-afd8-d542c5f9066a" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Closing_Brackets" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Ignores_Hyphens" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="7df6a8b1-3b4d-6645-be19-869960b0e98a">
+      <Execution id="bce71dfc-9fbd-478d-9ad8-6eb8935ffc77" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Hyphens" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Ignores_Spaces" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="3b91614c-156a-fe56-e034-492747041747">
+      <Execution id="500f135b-4a67-4105-9c8a-ee2ef0322369" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Spaces" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Must_Be_More_Than_10_Digits_In_Length" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="5914c5a8-ff21-7d38-bf6f-287873374685">
+      <Execution id="17b4d407-e1e5-488b-bec3-5e169ac4861f" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Must_Be_More_Than_10_Digits_In_Length" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Must_Be_Less_Than_12_Digits_In_Length" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="e194eb49-a2af-f70f-4c0f-051c2ae712ec">
+      <Execution id="0aefa3b5-0587-42ce-b99b-7873dabe1530" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Must_Be_Less_Than_12_Digits_In_Length" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Must_Begin_With_9" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="5e27259e-bfc7-b071-884a-f3dd050f6dd7">
+      <Execution id="de77039d-8a89-4091-a007-547501024fe8" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Must_Begin_With_9" />
+    </UnitTest>
+    <UnitTest name="Invalid_Error_When_Phone_Number_Does_Not_Begin_With_9" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="d1b280c2-8956-4c7c-8532-406c93924616">
+      <Execution id="e3961cb0-9602-4cf2-8252-758c5f6f6ad4" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Invalid_Error_When_Phone_Number_Does_Not_Begin_With_9" />
+    </UnitTest>
+    <UnitTest name="Phone_Number_Ignores_Open_Brackets" storage="c:\users\richarv\documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\debug\phone-numbers-kata.dll" id="1c20db9f-4748-23bf-2bf7-f7be703967c9">
+      <Execution id="43054585-46d1-4897-8174-0ae0e2319c18" />
+      <TestMethod codeBase="C:\Users\richarv\Documents\phone-numbers-kata\c#\phone-numbers-kata\phone-numbers-kata\bin\Debug\phone-numbers-kata.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PhoneNumberTests, phone-numbers-kata" name="Phone_Number_Ignores_Open_Brackets" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1c20db9f-4748-23bf-2bf7-f7be703967c9" executionId="43054585-46d1-4897-8174-0ae0e2319c18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b91614c-156a-fe56-e034-492747041747" executionId="500f135b-4a67-4105-9c8a-ee2ef0322369" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5914c5a8-ff21-7d38-bf6f-287873374685" executionId="17b4d407-e1e5-488b-bec3-5e169ac4861f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e27259e-bfc7-b071-884a-f3dd050f6dd7" executionId="de77039d-8a89-4091-a007-547501024fe8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68891330-e1c1-22fe-8fe3-7fe47b146b27" executionId="6bc2dec3-3800-4600-afd8-d542c5f9066a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7df6a8b1-3b4d-6645-be19-869960b0e98a" executionId="bce71dfc-9fbd-478d-9ad8-6eb8935ffc77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a85d265d-3293-80b9-5f63-8c197687a090" executionId="fdeb618b-28e3-4b5a-a312-db47358283fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1b280c2-8956-4c7c-8532-406c93924616" executionId="e3961cb0-9602-4cf2-8252-758c5f6f6ad4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6f57ffc-832f-8142-cf01-b7366890f181" executionId="7865a111-6690-4f7b-837a-1a9b251c6af0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e194eb49-a2af-f70f-4c0f-051c2ae712ec" executionId="0aefa3b5-0587-42ce-b99b-7873dabe1530" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="43054585-46d1-4897-8174-0ae0e2319c18" testId="1c20db9f-4748-23bf-2bf7-f7be703967c9" testName="Phone_Number_Ignores_Open_Brackets" computerName="RICHARV-PC" duration="00:00:00.0107739" startTime="2014-09-04T20:57:19.9674650+01:00" endTime="2014-09-04T20:57:20.1129728+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43054585-46d1-4897-8174-0ae0e2319c18">
+    </UnitTestResult>
+    <UnitTestResult executionId="500f135b-4a67-4105-9c8a-ee2ef0322369" testId="3b91614c-156a-fe56-e034-492747041747" testName="Phone_Number_Ignores_Spaces" computerName="RICHARV-PC" duration="00:00:00.0009710" startTime="2014-09-04T20:57:20.1207853+01:00" endTime="2014-09-04T20:57:20.1285978+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="500f135b-4a67-4105-9c8a-ee2ef0322369">
+    </UnitTestResult>
+    <UnitTestResult executionId="17b4d407-e1e5-488b-bec3-5e169ac4861f" testId="5914c5a8-ff21-7d38-bf6f-287873374685" testName="Phone_Number_Must_Be_More_Than_10_Digits_In_Length" computerName="RICHARV-PC" duration="00:00:00.0010669" startTime="2014-09-04T20:57:20.1325041+01:00" endTime="2014-09-04T20:57:20.1461760+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17b4d407-e1e5-488b-bec3-5e169ac4861f">
+    </UnitTestResult>
+    <UnitTestResult executionId="de77039d-8a89-4091-a007-547501024fe8" testId="5e27259e-bfc7-b071-884a-f3dd050f6dd7" testName="Phone_Number_Must_Begin_With_9" computerName="RICHARV-PC" duration="00:00:00.0015916" startTime="2014-09-04T20:57:20.1471525+01:00" endTime="2014-09-04T20:57:20.1578947+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de77039d-8a89-4091-a007-547501024fe8">
+    </UnitTestResult>
+    <UnitTestResult executionId="6bc2dec3-3800-4600-afd8-d542c5f9066a" testId="68891330-e1c1-22fe-8fe3-7fe47b146b27" testName="Phone_Number_Ignores_Closing_Brackets" computerName="RICHARV-PC" duration="00:00:00.0021933" startTime="2014-09-04T20:57:20.1588713+01:00" endTime="2014-09-04T20:57:20.1705900+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bc2dec3-3800-4600-afd8-d542c5f9066a">
+    </UnitTestResult>
+    <UnitTestResult executionId="bce71dfc-9fbd-478d-9ad8-6eb8935ffc77" testId="7df6a8b1-3b4d-6645-be19-869960b0e98a" testName="Phone_Number_Ignores_Hyphens" computerName="RICHARV-PC" duration="00:00:00.0002122" startTime="2014-09-04T20:57:20.1715666+01:00" endTime="2014-09-04T20:57:20.1754728+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bce71dfc-9fbd-478d-9ad8-6eb8935ffc77">
+    </UnitTestResult>
+    <UnitTestResult executionId="fdeb618b-28e3-4b5a-a312-db47358283fb" testId="a85d265d-3293-80b9-5f63-8c197687a090" testName="Phone_Number_Must_Be_11_Digits_In_Length" computerName="RICHARV-PC" duration="00:00:00.0001458" startTime="2014-09-04T20:57:20.1774260+01:00" endTime="2014-09-04T20:57:20.1803557+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdeb618b-28e3-4b5a-a312-db47358283fb">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3961cb0-9602-4cf2-8252-758c5f6f6ad4" testId="d1b280c2-8956-4c7c-8532-406c93924616" testName="Invalid_Error_When_Phone_Number_Does_Not_Begin_With_9" computerName="RICHARV-PC" duration="00:00:00.0001262" startTime="2014-09-04T20:57:20.1823088+01:00" endTime="2014-09-04T20:57:20.1852385+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3961cb0-9602-4cf2-8252-758c5f6f6ad4">
+    </UnitTestResult>
+    <UnitTestResult executionId="7865a111-6690-4f7b-837a-1a9b251c6af0" testId="d6f57ffc-832f-8142-cf01-b7366890f181" testName="Phone_Number_Ignores_Commas" computerName="RICHARV-PC" duration="00:00:00.0001711" startTime="2014-09-04T20:57:20.1871916+01:00" endTime="2014-09-04T20:57:20.1901213+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7865a111-6690-4f7b-837a-1a9b251c6af0">
+    </UnitTestResult>
+    <UnitTestResult executionId="0aefa3b5-0587-42ce-b99b-7873dabe1530" testId="e194eb49-a2af-f70f-4c0f-051c2ae712ec" testName="Phone_Number_Must_Be_Less_Than_12_Digits_In_Length" computerName="RICHARV-PC" duration="00:00:00.0001266" startTime="2014-09-04T20:57:20.1920744+01:00" endTime="2014-09-04T20:57:20.1959807+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0aefa3b5-0587-42ce-b99b-7873dabe1530">
+    </UnitTestResult>
+  </Results>
+</TestRun>

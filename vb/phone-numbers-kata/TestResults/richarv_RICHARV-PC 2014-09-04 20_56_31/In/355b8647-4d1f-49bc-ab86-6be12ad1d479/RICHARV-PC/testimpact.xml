@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Invalid_Error_When_Phone_Number_Contains_Alpha_Characters" IsTestCase="false" TestCaseId="0" AutomatedTestId="0d65aa09-8982-1fbc-de59-884be95d36bc">
+  <Signatures>
+    <Signature>5CA0D222A95A65CDE20EE35426DC910CC4C4DF93</Signature>
+    <Signature>E2C0FE4385A1B864DE7E61409490D971953F3A4F</Signature>
+    <Signature>C35CA42359DA694D29C9DFBF3808F209C5D4BF77</Signature>
+  </Signatures>
+</Test>
