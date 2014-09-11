@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@549c7ff[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1977d7a5[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -330,7 +330,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 598ms :: artifacts dl 23ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 623ms :: artifacts dl 35ms[0m
 [0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 compile produced in /home/vagrant/projects/personal/phone-numbers-kata/scala/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 runtime produced in /home/vagrant/projects/personal/phone-numbers-kata/scala/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 test produced in /home/vagrant/projects/personal/phone-numbers-kata/scala/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-test.xml[0m
@@ -344,5 +344,5 @@
 [0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 docs produced in /home/vagrant/projects/personal/phone-numbers-kata/scala/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 pom produced in /home/vagrant/projects/personal/phone-numbers-kata/scala/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 scala-tool produced in /home/vagrant/projects/personal/phone-numbers-kata/scala/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (598ms resolve - 23ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (623ms resolve - 35ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
