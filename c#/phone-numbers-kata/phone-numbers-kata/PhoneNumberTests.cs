@@ -47,25 +47,25 @@ public class PhoneNumberTests
     [TestMethod]
     public void Phone_Number_Ignores_Hyphens()
     {
-        Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") == VALID_TELEPHONE_NUMBER);
+        Assert.IsTrue(Validate.PhoneNumber("9-2-345-567--871") == VALID_TELEPHONE_NUMBER);
     }
 
     [TestMethod]
     public void Phone_Number_Ignores_Open_Brackets()
     {
-        Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") == VALID_TELEPHONE_NUMBER);
+        Assert.IsTrue(Validate.PhoneNumber("9(2(345567871") == VALID_TELEPHONE_NUMBER);
     }
 
     [TestMethod]
     public void Phone_Number_Ignores_Closing_Brackets()
     {
-        Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") == VALID_TELEPHONE_NUMBER);
+        Assert.IsTrue(Validate.PhoneNumber("92)345)567871") == VALID_TELEPHONE_NUMBER);
     }
 
     [TestMethod]
     public void Phone_Number_Ignores_Commas()
     {
-        Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") == VALID_TELEPHONE_NUMBER);
+        Assert.IsTrue(Validate.PhoneNumber("92345,,567,871") == VALID_TELEPHONE_NUMBER);
     }
 
     [TestMethod]
