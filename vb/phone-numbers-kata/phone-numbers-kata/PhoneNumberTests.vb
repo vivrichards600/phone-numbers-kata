@@ -35,22 +35,22 @@ Public Class PhoneNumberTests
 
     <TestMethod()>
     Public Sub Phone_Number_Ignores_Hyphens()
-        Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") = VALID_TELEPHONE_NUMBER)
+        Assert.IsTrue(Validate.PhoneNumber("9-2--345567-871") = VALID_TELEPHONE_NUMBER)
     End Sub
 
     <TestMethod()>
     Public Sub Phone_Number_Ignores_Open_Brackets()
-        Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") = VALID_TELEPHONE_NUMBER)
+        Assert.IsTrue(Validate.PhoneNumber("92(345567((871") = VALID_TELEPHONE_NUMBER)
     End Sub
 
     <TestMethod()>
     Public Sub Phone_Number_Ignores_Closing_Brackets()
-        Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") = VALID_TELEPHONE_NUMBER)
+        Assert.IsTrue(Validate.PhoneNumber("9)2345)567871") = VALID_TELEPHONE_NUMBER)
     End Sub
 
     <TestMethod()>
     Public Sub Phone_Number_Ignores_Commas()
-        Assert.IsTrue(Validate.PhoneNumber("9-2(345)567,871") = VALID_TELEPHONE_NUMBER)
+        Assert.IsTrue(Validate.PhoneNumber("92,345567,871") = VALID_TELEPHONE_NUMBER)
     End Sub
 
     <TestMethod()>
