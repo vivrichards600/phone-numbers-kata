@@ -2,3 +2,12 @@
 [0m[[0minfo[0m] [0m[32mvalidate[0m[0m
 [0m[[0minfo[0m] [0m[32m- should check phone number begins with 9[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return invalid error when phone number does not begin with 9[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return invalid error when phone number is less than 11 digits in length[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return invalid error when phone number is more than 11 digits in length[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a phone number when it is valid[0m[0m
+[0m[[0minfo[0m] [0m[32m- should ignore spaces[0m[0m
+[0m[[0minfo[0m] [0m[32m- should ignore hyphens[0m[0m
+[0m[[0minfo[0m] [0m[32m- should ignore opening brackets[0m[0m
+[0m[[0minfo[0m] [0m[32m- should ignore closing brackets[0m[0m
+[0m[[0minfo[0m] [0m[32m- should ignore commas[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return invalid error when phone number contains alpha characters[0m[0m
