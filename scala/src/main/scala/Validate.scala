@@ -1,9 +1,23 @@
+import scala.annotation.tailrec
+
 class Validate {
 
-  def phoneNumber(telephoneNumber: String): String = {
-    val number = telephoneNumber.replace(" ", "").replace("-", "").replace("(", "").replace(")", "").replace(",", "")
+  def phoneNumber(telNo: String): String = {
 
-    if (number.startsWith("9") & number.length == 11 & number.forall(_.isDigit)) number
+    val invalidChars = Seq(" ", "-", "(", ")", ",")
+
+    @tailrec
+    def replaceInvalidChars(telNo: String, invalidChars: Seq[String]): String = {
+      if (invalidChars.isEmpty) telNo
+      else if (telNo contains invalidChars.head) {
+        val n = telNo.replace(invalidChars.head, "")
+        replaceInvalidChars(n, invalidChars.tail)
+      }
+      else replaceInvalidChars(telNo, invalidChars.tail)
+    }
+
+    val newTelNo = replaceInvalidChars(telNo, invalidChars)
+    if (newTelNo.length == 11 && newTelNo.startsWith("9")) newTelNo
     else "invalid"
   }
 }
